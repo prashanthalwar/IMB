@@ -53,20 +53,20 @@ $(document).ready(function() {
         </script>
     </head>
     <body>
-      <h2>BMI 試算</h2>
+      <h2>BMI </h2>
       <div id="bmi-calculator">
         <div id="bmiresult">?</div>
         <form id="bmi" action="#">
           <div>
             <div class="field">
-              <label>身高</label>
+              <label></label>
               <input id="height" name="height" size="30" type="text" value="" autocomplete="off"> cm
             </div>
             <div class="field">
-              <label>體重</label>
+              <label></label>
               <input id="weight" name="weight" size="30" type="text" value="" autocomplete="off"> kg
             </div>
-            <div class="submit"><input class="submit" type="submit" value="計算"></div>
+            <div class="submit"><input class="submit" type="submit" value="autocomplete="off"></div>
           </div>
         </form>
       </div>
